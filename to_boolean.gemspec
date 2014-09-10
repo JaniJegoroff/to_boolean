@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name          = 'to_boolean'
-  gem.version       = '1.0.0'
+  gem.version       = '1.0.1'
   gem.platform      = Gem::Platform::RUBY
   gem.authors       = ['Jani Jegoroff']
   gem.date          = '2014-09-10'
@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
 
   gem.test_files    = %w[spec/spec_helper.rb spec/spec_to_boolean.rb]
 
-  gem.add_development_dependency 'rake', '~> 0'
-  gem.add_development_dependency 'minitest', '~> 0'
-  gem.add_development_dependency 'minitest-reporters', '~> 0'
+  gem.add_development_dependency 'rake', '~> 10.3'
+  gem.add_development_dependency 'minitest', '~> 5.4'
+  gem.add_development_dependency 'minitest-reporters', '~> 1.0'
 end
