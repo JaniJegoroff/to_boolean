@@ -1,12 +1,13 @@
+require_relative 'lib/version'
+
 Gem::Specification.new do |gem|
   gem.name          = 'to_boolean'
-  gem.version       = '1.0.1'
+  gem.version       = ToBoolean::VERSION
   gem.platform      = Gem::Platform::RUBY
   gem.authors       = ['Jani Jegoroff']
-  gem.date          = '2014-09-10'
   gem.email         = ['jani.jegoroff@gmail.com']
   gem.summary       = 'Simple gem that provides to_boolean method.'
-  gem.description   = 'Ruby core extension that converts string and integer values to boolean.'
+  gem.description   = 'Core extension that converts string and integer values to boolean.'
   gem.homepage      = 'http://github.com/JaniJegoroff/to_boolean'
   gem.license       = 'MIT'
 
@@ -18,4 +19,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake', '~> 10.3'
   gem.add_development_dependency 'minitest', '~> 5.4'
   gem.add_development_dependency 'minitest-reporters', '~> 1.0'
+  gem.add_development_dependency 'rubocop', '~> 0.26'
 end
