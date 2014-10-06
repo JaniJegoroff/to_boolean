@@ -1,3 +1,6 @@
+[![Gem Version](https://badge.fury.io/rb/to_boolean.svg)](http://badge.fury.io/rb/to_boolean)
+[![Dependency Status](https://gemnasium.com/JaniJegoroff/to_boolean.svg)](https://gemnasium.com/JaniJegoroff/to_boolean)
+
 to_boolean
 ==========
 
