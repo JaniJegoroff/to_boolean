@@ -11,13 +11,13 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'http://github.com/JaniJegoroff/to_boolean'
   gem.license       = 'MIT'
 
-  gem.files         = %w[lib/to_boolean.rb]
+  gem.files         = Dir.glob('lib/**/*.rb')
   gem.require_paths = ['lib']
 
-  gem.test_files    = %w[spec/spec_helper.rb spec/spec_to_boolean.rb]
+  gem.test_files    = Dir.glob('spec/**/*.rb')
 
-  gem.add_development_dependency 'rake', '~> 10.3'
-  gem.add_development_dependency 'minitest', '~> 5.4'
+  gem.add_development_dependency 'rake', '~> 10.4'
+  gem.add_development_dependency 'minitest', '~> 5.5'
   gem.add_development_dependency 'minitest-reporters', '~> 1.0'
-  gem.add_development_dependency 'rubocop', '~> 0.27'
+  gem.add_development_dependency 'rubocop', '~> 0.29'
 end
