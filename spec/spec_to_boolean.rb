@@ -1,5 +1,6 @@
 require_relative 'spec_helper'
 
+# Test class for ToBoolean
 class SpecToBoolean < Minitest::Spec
   describe 'to_boolean' do
     it 'should return true' do
