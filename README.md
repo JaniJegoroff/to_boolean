@@ -1,5 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/to_boolean.svg)](http://badge.fury.io/rb/to_boolean)
 [![Build Status](https://travis-ci.org/JaniJegoroff/to_boolean.svg?branch=master)](https://travis-ci.org/JaniJegoroff/to_boolean)
+[![Coverage Status](https://coveralls.io/repos/JaniJegoroff/to_boolean/badge.svg?branch=master)](https://coveralls.io/r/JaniJegoroff/to_boolean?branch=master)
 [![Dependency Status](https://gemnasium.com/JaniJegoroff/to_boolean.svg)](https://gemnasium.com/JaniJegoroff/to_boolean)
 
 to_boolean
