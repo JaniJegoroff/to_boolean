@@ -1,6 +1,7 @@
 [![Gem Version](https://badge.fury.io/rb/to_boolean.svg)](http://badge.fury.io/rb/to_boolean)
 [![Build Status](https://travis-ci.org/JaniJegoroff/to_boolean.svg?branch=master)](https://travis-ci.org/JaniJegoroff/to_boolean)
 [![Coverage Status](https://coveralls.io/repos/JaniJegoroff/to_boolean/badge.svg?branch=master)](https://coveralls.io/r/JaniJegoroff/to_boolean?branch=master)
+[![Code Climate](https://codeclimate.com/github/JaniJegoroff/to_boolean/badges/gpa.svg)](https://codeclimate.com/github/JaniJegoroff/to_boolean)
 [![Dependency Status](https://gemnasium.com/JaniJegoroff/to_boolean.svg)](https://gemnasium.com/JaniJegoroff/to_boolean)
 
 to_boolean
@@ -37,7 +38,7 @@ Run the tests
 
 `$ bundle`
 
-`$ rake`
+`$ bundle exec rake`
 
 License
 ==========
