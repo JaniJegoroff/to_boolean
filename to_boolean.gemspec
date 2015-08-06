@@ -17,8 +17,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = Dir.glob('spec/**/*.rb')
 
   gem.add_development_dependency 'rake', '~> 10.4'
-  gem.add_development_dependency 'minitest', '~> 5.6'
+  gem.add_development_dependency 'minitest', '~> 5.7'
   gem.add_development_dependency 'minitest-reporters', '~> 1.0'
-  gem.add_development_dependency 'rubocop', '~> 0.30'
+  gem.add_development_dependency 'rubocop', '~> 0.33'
   gem.add_development_dependency 'coveralls', '~> 0.8'
 end
